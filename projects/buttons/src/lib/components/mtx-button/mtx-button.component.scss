@@ -1,0 +1,13 @@
+@import "mtx-button-size";
+@import "mtx-button-shape";
+@import "mtx-style-solid";
+
+
+:host{
+  @include generate-sized-buttons;
+  @include generate-shaped-buttons;
+  @include generate-solid-buttons;
+  cursor: pointer;
+}
+
+
